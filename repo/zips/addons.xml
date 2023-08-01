@@ -27,7 +27,9 @@
     </assets>        
 		<language>es</language>
 	</extension>
-</addon><addon id="plugin.program.RikTeam" name="[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]" version="3.3" provider-name="Rik Team">
+</addon>
+
+<addon id="plugin.program.RikTeam" name="[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]" version="3.3" provider-name="Rik Team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -58,7 +60,9 @@ plugin.program.[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[/COLOR]
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="skin.ctouch"  version="9.3.4.2" name="Cristal Touch" provider-name="STVA">
+</addon>
+
+<addon id="skin.ctouch"  version="9.3.4.2" name="Cristal Touch" provider-name="STVA">
 	<requires>
 		<import addon="resource.language.es_es" version="0.0.0"/>		
 	</requires>
@@ -106,7 +110,9 @@ Versión 3.4 - 15/5/23
 			<screenshot>resources/screenshot005.jpg</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="repository.alfa-addon" name="[COLOR red]Alfa Add-on[/COLOR] Repo" version="1.0.8" provider-name="Alfa Development Group">
+</addon>
+
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa Add-on[/COLOR] Repo" version="1.0.8" provider-name="Alfa Development Group">
     <requires>
         <import addon="xbmc.addon" version="12.0.0" />
     </requires>
@@ -140,7 +146,9 @@ Versión 3.4 - 15/5/23
         </assets>
         <source>https://github.com/alfa-addon/alfa-repo</source>
     </extension>
-</addon><addon id="repository.balandro" name="Balandro Repo" version="3.0.0" provider-name="Balandro Team">
+</addon>
+
+<addon id="repository.balandro" name="Balandro Repo" version="3.0.0" provider-name="Balandro Team">
 
     <extension point="xbmc.addon.repository" name="balandro repo">
         <dir>
@@ -171,15 +179,17 @@ Versión 3.4 - 15/5/23
     </extension>
 
     
-</addon><addon id="repository.fonts" name="[B]Repositorio[/B] [COLOR azure][B]FONTS[/B][/COLOR]" version="1.0" provider-name="Rik Team">
+</addon>
+
+<addon id="repository.fonts" name="[B]Repositorio[/B] [COLOR azure][B]FONTS[/B][/COLOR]" version="1.0" provider-name="Rik Team">
      <requires>
-      <import addon="xbmc.addon" version="12.0.0" />
+      <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
 	<extension point="xbmc.addon.repository" name="Repositorio FONTS">
         <dir>
-		<info>https://raw.githubusercontent.com/fontsvr/fonts/master/repo/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/fontsvr/fonts/master/repo/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/fontsvr/fonts/master/repo/zips/</datadir>
+		<info>https://raw.githubusercontent.com/fontsvr/fonts/main/repo/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/fontsvr/fonts/main/repo/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/fontsvr/fonts/main/repo/zips/</datadir>
 		</dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -192,7 +202,9 @@ Versión 3.4 - 15/5/23
 			<fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.fontsvr" name="[B]Repo[/B] [COLOR azure][B]FONTSVR[/B] [COLOR limegreen][B]MATRIX[/B][/COLOR]|[COLOR violet][B]NEXUS[/B][/COLOR]" version="1.0" provider-name="Rik Team">
+</addon>
+
+<addon id="repository.fontsvr" name="[B]Repo[/B] [COLOR azure][B]FONTSVR[/B] [COLOR limegreen][B]MATRIX[/B][/COLOR]|[COLOR violet][B]NEXUS[/B][/COLOR]" version="1.0" provider-name="Rik Team">
     <extension point="xbmc.addon.repository" name="[B[COLOR white]Repo FONTSVR[/B][/COLOR]">
         <dir>
 		<info compressed="false">https://raw.githubusercontent.com/fontsvr/repo-fontsVR/master/addons/zips/addons.xml</info>
@@ -213,7 +225,9 @@ Versión 3.4 - 15/5/23
         </assets>
 		<source>https://github.com/fontsvr/repo-fontsVR/</source>
     </extension>
-</addon><addon id="repository.luar" name="[COLOR lime]Repositorio Luar[/COLOR]" version="2.0.0" provider-name="The Dreamers">
+</addon>
+
+<addon id="repository.luar" name="[COLOR lime]Repositorio Luar[/COLOR]" version="2.0.0" provider-name="The Dreamers">
     <extension point="xbmc.addon.repository" name="Luar official Repo">
     	<dir minversion="18.9.0">
 		    <info compressed="false">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml</info>
@@ -230,7 +244,9 @@ Versión 3.4 - 15/5/23
             <fanart>fanart.jpg</fanart>
         </assets>
 	</extension>
-</addon><addon id="repository.magellan" name="[COLOR red]Mage[/COLOR] [COLOR black]llan[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.0.0" provider-name="Magellan">
+</addon>
+
+<addon id="repository.magellan" name="[COLOR red]Mage[/COLOR] [COLOR black]llan[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.0.0" provider-name="Magellan">
   <requires>
     <import addon="xbmc.addon" version="12.0.0" />
          
@@ -272,7 +288,9 @@ Versión 3.4 - 15/5/23
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="4.3">
+</addon>
+
+<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="4.3">
 	<extension point="xbmc.addon.repository" name="Michaz Repository">
 		<dir>
 			<info compressed="false">https://michaz1988.github.io/repo/addons.xml</info>
@@ -369,7 +387,9 @@ Versión 3.4 - 15/5/23
 			<icon>icon.png</icon>
 		</assets> 
 	</extension>
-</addon><addon id="repository.palantir2" name="[COLOR gold]Repositorio Palantir 2[/COLOR]" version="2.0.2" provider-name="TierraMedia">
+</addon>
+
+<addon id="repository.palantir2" name="[COLOR gold]Repositorio Palantir 2[/COLOR]" version="2.0.2" provider-name="TierraMedia">
     <extension point="xbmc.addon.repository" name="Palantir 2 official Repo">
     	<dir minversion="18.9.0">
     	    <info compressed="false">https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
